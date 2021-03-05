@@ -1,0 +1,13 @@
+{
+  "name": "estagio_nave",
+  "version": "1.0.0",
+  "description": "Desafios para a vaga de estágio em Back-end na Nave",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start",
+    "test": "jest"
+  },
+  "keywords": ["estágio", "back-end"],
+  "author": "Pedro Leal",
+  "license": "ISC"
+}
