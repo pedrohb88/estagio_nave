@@ -1,6 +1,6 @@
 exports.up = (knex) =>
 	knex.schema.createTable("navers", (table) => {
-		table.uuid("id").primary().defaultTo(knex.raw('(UUID())'));
+		table.uuid("id").primary().defaultTo(knex.raw('(gen_random_uuid ())'));
 		table.string("name").notNullable();
 		table.string("job_role").notNullable();
 		table.date("birthdate").notNullable();

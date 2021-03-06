@@ -9,7 +9,7 @@ function migrate() {
 		.latest({
 			directory: `${__dirname}/migrations`,
 		})
-		.then(([batchNo, log]) => {
+		.then(async ([batchNo, log]) => {
 			if (!log.length) {
 				console.info("Database is already up to date");
 			} else {
