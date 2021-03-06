@@ -4,10 +4,21 @@
   "description": "Desafios para a vaga de estágio em Back-end na Nave",
   "main": "index.js",
   "scripts": {
-    "start": "node start",
+    "start": "node server",
+    "dev": "nodemon server",
     "test": "jest"
   },
-  "keywords": ["estágio", "back-end"],
+  "keywords": [
+    "estágio",
+    "back-end"
+  ],
   "author": "Pedro Leal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.1",
+    "mysql": "^2.18.1",
+    "objection": "^2.2.14"
+  }
 }
