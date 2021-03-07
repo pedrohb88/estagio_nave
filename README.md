@@ -25,12 +25,6 @@ npm install
 npm start
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Pedro Leal**

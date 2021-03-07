@@ -1,0 +1,17 @@
+services:
+  postgre:
+    build: ./docker_postgre
+    ports: 
+      - "8080:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 1s
+      timeout: 5s
+      retries: 10
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on: 
+      postgre:
+        condition: service_healthy

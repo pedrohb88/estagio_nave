@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server",
     "dev": "nodemon src/server",
-    "test": "jest"
+    "start-docker": "docker-compose up"
   },
   "keywords": [
     "estágio",
@@ -19,9 +19,7 @@
     "express": "^4.17.1",
     "knex": "^0.95.1",
     "lodash": "^4.17.21",
-    "mysql": "^2.18.1",
     "objection": "^2.2.14",
-    "pg": "^8.5.1",
-    "uuid": "^8.3.2"
+    "pg": "^8.5.1"
   }
 }

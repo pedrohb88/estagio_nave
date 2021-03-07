@@ -1,0 +1,9 @@
+FROM postgres:13.2
+
+WORKDIR /usr/src/postgres
+
+ENV POSTGRES_DB=estagio_nave
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=0000
+
+EXPOSE 8080
