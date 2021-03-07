@@ -75,7 +75,7 @@ npm start
 ```
 
 ## Exercícios Bônus de Banco de Dados<a name="exercicios_bonus"></a> 
-Os scripts SQL para resolução dos exercício de banco de dados se encontram na pasta [exercicios_bonus_db](https://github.com/pedrohb88/estagio_nave/tree/main/exercicios_bonus_db).
+Os scripts SQL de resolução dos exercícios de banco de dados se encontram na pasta [exercicios_bonus_db](https://github.com/pedrohb88/estagio_nave/tree/main/exercicios_bonus_db).
 
 - [eb1](https://github.com/pedrohb88/estagio_nave/blob/main/exercicios_bonus_db/eb1.sql)
 - [eb2](https://github.com/pedrohb88/estagio_nave/blob/main/exercicios_bonus_db/eb2.sql)
